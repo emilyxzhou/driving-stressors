@@ -147,6 +147,8 @@ def extract_features(signals, window=30, shift=1):
 def generate_and_save_features(subject):   
     """
     Free roam: baseline
+    Averages features extracted from 30-second segments, with a 1-second sliding window.
+    Starts at 15 seconds
     """
     print(f"{subject} " + "-"*60)
     data = load_subject(subject)

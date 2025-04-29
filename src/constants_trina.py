@@ -2,7 +2,7 @@ import os
 
 # DATA_BASE_FOLDER = "/media/data/toyota/processed_data_old/trina-bind/"
 DATA_BASE_FOLDER = "/media/data/toyota/raw_data/trina_10"
-DATA_PROCESSED_FOLDER = "/home/emilyzho/distracted-driving/data/trina_10_processed"
+DATA_PROCESSED_FOLDER = "/media/data/toyota/processed_data/trina_10_processed"
 # DATASET_PATH = save_path = os.path.join(
 #     DATA_PROCESSED_FOLDER,
 #     "dataset.npy"
